@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T01:57:27.543Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="HYGuXjLHW3_AWszdCgZx" version="20.8.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-13T01:59:12.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="N77xoXY8zbAd9XDh0INm" version="20.8.5" type="github" pages="5">
   <diagram id="1vhN1cE_3x_gfNRDWmaL" name="solution architecture">
     <mxGraphModel dx="1990" dy="1978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -821,7 +821,7 @@
           <mxGeometry x="340" y="100" width="820" height="440" as="geometry" />
         </mxCell>
         <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-3" value="System Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="258" width="30" height="60" as="geometry" />
+          <mxGeometry x="170" y="240" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-4" value="Distributor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="360" width="30" height="60" as="geometry" />
@@ -829,8 +829,8 @@
         <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-5" value="TOKIN Sale Rep" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="130" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-6" value="TOKIN Web EDI App" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="365" y="100" width="120" height="30" as="geometry" />
+        <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-6" value="TOKIN Web EDI Apps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="100" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-7" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6666FF;" vertex="1" parent="1">
           <mxGeometry x="953.75" y="190" width="170" height="222.75" as="geometry" />
@@ -886,7 +886,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-21" value="Upload API Service" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;strokeColor=#6666FF;" vertex="1" parent="1">
-          <mxGeometry x="590" y="146" width="64" height="64" as="geometry" />
+          <mxGeometry x="610" y="146" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="LHyTGPjiTv8Tl3ZJO-wo-15" target="LHyTGPjiTv8Tl3ZJO-wo-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -948,10 +948,10 @@
           <mxGeometry x="360" y="60" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-36" value="EDI API Service" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;strokeColor=#6666FF;" vertex="1" parent="1">
-          <mxGeometry x="598" y="268" width="64" height="64" as="geometry" />
+          <mxGeometry x="610" y="268" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-37" value="ESO API Service" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;strokeColor=#6666FF;" vertex="1" parent="1">
-          <mxGeometry x="600" y="390" width="64" height="64" as="geometry" />
+          <mxGeometry x="610" y="390" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-38" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="LHyTGPjiTv8Tl3ZJO-wo-21" target="LHyTGPjiTv8Tl3ZJO-wo-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -959,7 +959,7 @@
             <mxPoint x="630" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-39" value="R/W" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LHyTGPjiTv8Tl3ZJO-wo-38">
+        <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-39" value="R/W (VNET)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LHyTGPjiTv8Tl3ZJO-wo-38">
           <mxGeometry x="-0.2523" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -970,7 +970,7 @@
             <mxPoint x="770" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-41" value="R/W" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LHyTGPjiTv8Tl3ZJO-wo-40">
+        <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-41" value="R/W (VNET)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LHyTGPjiTv8Tl3ZJO-wo-40">
           <mxGeometry x="-0.2523" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -981,7 +981,7 @@
             <mxPoint x="780" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-43" value="R/W" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LHyTGPjiTv8Tl3ZJO-wo-42">
+        <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-43" value="R/W (VNET)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LHyTGPjiTv8Tl3ZJO-wo-42">
           <mxGeometry x="-0.2523" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1009,7 +1009,7 @@
         <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-50" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="LHyTGPjiTv8Tl3ZJO-wo-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="160" as="sourcePoint" />
-            <mxPoint x="390" y="160" as="targetPoint" />
+            <mxPoint x="400" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LHyTGPjiTv8Tl3ZJO-wo-51" value="HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LHyTGPjiTv8Tl3ZJO-wo-50">
